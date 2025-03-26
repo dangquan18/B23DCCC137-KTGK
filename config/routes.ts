@@ -1,4 +1,6 @@
-﻿export default [
+﻿import { icons } from 'antd/lib/image/PreviewGroup';
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -34,6 +36,12 @@
 		path: '/random-user',
 		name: 'RandomUser',
 		component: './RandomUser',
+		icon: 'ArrowsAltOutlined',
+	},
+	{
+		path: '/ktgk',
+		name: 'KiemTraGK',
+		component: './KTGK/pages/Coursepage',
 		icon: 'ArrowsAltOutlined',
 	},
 
