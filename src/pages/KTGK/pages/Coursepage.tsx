@@ -16,7 +16,7 @@ const CoursePage: React.FC = () => {
 			</Header>
 
 			<Content
-				style={{ maxWidth: '900px', margin: '20px auto', padding: '20px', background: '#fff', borderRadius: '8px' }}
+				style={{ maxWidth: '1200px', margin: '20px auto', padding: '20px', background: '#fff', borderRadius: '8px' }}
 			>
 				<Title level={3}>Thêm Khóa Học</Title>
 				<CourseForm />
